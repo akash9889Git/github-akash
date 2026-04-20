@@ -1,0 +1,79 @@
+history
+    1  ls
+    2  mkdir linux
+    3  ls
+    4  cd day5/
+    5  clear
+    6  ls
+    7  sed '1,10 s/INFO/LOG/g' app.log 
+    8  sed '1,15 s/INFO/LOG/g; 1,10p; 11q' app.log 
+    9  grep INFO app.log 
+   10  grep info app.log 
+   11  grep infor app.log 
+   12  grep -i info app.log 
+   13  grep -i -c info app.log 
+   14  awk '/INFO/ {count++} END {print count}' app.log 
+   15  ps aux
+   16  ps aux } grep ubuntu
+   17  ps aux | grep ubuntu
+   18  ps aux | grep vagrant
+   19  ps aux | grep vagrant | awk '{print $2}'
+   20  lsblk
+   21  clear
+   22  lsblk
+   23  df -h
+   24  lvm 
+   25  sudo su
+   26  clear
+   27  cd ..
+   28  ls
+   29  cd ..
+   30  ls
+   31  mkdir shell
+   32  ls
+   33  cd ..
+   34  ls
+   35  cd github
+   36  ls
+   37  python testing.py 
+   38  clear
+   39  python testing.py 
+   40  python3 testing.py 
+   41  python --version
+   42  python3 --version
+   43  clear
+   44  ls -l
+   45  rm testing.py 
+   46  clear
+   47  git init
+   48  clear
+   49  git status
+   50  git remote -v
+   51  ls -a
+   52  git status
+   53  clear
+   54  git status
+   55  git add testing.py 
+   56  git status
+   57  clear
+   58  git status
+   59  git rm --cached testing.py 
+   60  git status
+   61  git add .
+   62  clear
+   63  git status
+   64  git commit -m "added testing files"
+   65  clear
+   66  git commit -m "added testing files"
+   67  git config --global user.email "akashaws9889@gmail.com"
+   68  git config --global user.name "akash9889Git"
+   69  clear
+   70  git commit -m "added testing files"
+   71  git status
+   72  rm testing.py 
+   73  git status
+   74  git restore t
+   75  git restore testing.py
+   76  clear
+   77  git status
+   78  history
